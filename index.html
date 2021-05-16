@@ -3,18 +3,62 @@
     <title>Title</title>
   </head>
   <body>
-    <div style="background-color: yellow">
-      <h1>Header 1</h1>
-    </div>
-    <div style="background-color: blue; width: 400px; height: 600px">
-      <a href="https://www.google.com" target="_blank">Aller vers google</a>
-    </div>
-    <div style="background-color: green">
-      <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-      </ul>
-    </div>
+    <!--Champs de saisie petit-->
+    <form>
+      <label for="nom">Nom</label>
+      <input type="text" name="nom" id="nom" placeholder="Saisir le nom" />
+    </form>
+    <!--Champs de saisie Grand-->
+    <form>
+      <label for="story">Tell us your story:</label>
+      <textarea
+        style="vertical-align: top"
+        id="story"
+        name="story"
+        rows="5"
+        cols="33"
+      >
+ It was a dark and stormy night...</textarea
+      >
+    </form>
+    <!--Interupteur-->
+    <form>
+      <input type="checkbox" name="Velo" id="Velo" value="Velo" />Velo
+      <br />
+      <input
+        type="checkbox"
+        name="Voiture"
+        id="Voiture"
+        value="Voiture"
+        checked
+      />Voiture
+      <br />
+      <input type="checkbox" name="Avion" id="Avion" value="Avion" />Avion
+    </form>
+    <!--Radio-->
+    <form>
+      <input type="radio" name="sexe" id="sexe" checked /> Madame
+      <br />
+      <input type="radio" name="sexe" id="sexe" /> Monsieur
+    </form>
+    <!--Combo-->
+    <form>
+      <select name="MarqueVoiture" id="MarqueVoiture">
+        <option value="Pegeot">Pegeot</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Dacia">Dacia</option>
+        <option value="Subaro">Subaro</option>
+        <option value="Hyudai">Hyudai</option>
+        <option value="Honda">Honda</option>
+        <option value="Citroën">Citroën</option>
+        <option value="Renault">Renault</option>
+      </select>
+    </form>
+    <!--Valider-->
+    <form>
+      <input type="submit" value="Valider" />
+    </form>
   </body>
 </html>
