@@ -1,6 +1,7 @@
 p {
   color: rgba(0, 150, 0, 0.5);
-  font-size: 30px;
+  /*Text size with em*/
+  font-size: 2em;
   font-family: 'Times New Roman', Times, serif;
-  /*commentaire*/
+  
 }
