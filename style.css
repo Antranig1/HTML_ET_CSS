@@ -1,8 +1,23 @@
-p {
-  color: rgba(0, 150, 0, 0.5);
-  /*Text size with em*/
-  font-size: 2em;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  text-align: right;
+.a {
+  display: block;
+  color: white;
+  background-color: red;
+}
+.b {
+  display: inline-block;
+  width: 200px;
+  color: white;
+  background-color: green;
+}
+.c {
+  display: none;
+  width: 200px;
+  color: white;
+  background-color: yellow;
+}
+.d {
+  display: inline;
+  width: 200px;
+  color: white;
+  background-color: blue;
 }
