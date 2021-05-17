@@ -1,30 +1,39 @@
 .left {
-  display: inline-block;
-  color: white;
   background-color: red;
   width: 200px;
   height: 300px;
-  float: left;
+  position: absolute;
+  left: 100px;
+  top: 50px;
 }
 .right {
-  color: white;
   background-color: blue;
   width: 200px;
-  height: 350px;
-  float: right;
-}
-header {
-  background-color: yellow;
-  width: auto;
-  height: 200px;
-  border: 10px solid goldenrod;
+  height: 600px;
+  position: absolute;
+  top: 50;
+  left: 50;
 }
 
-footer {
-  width: auto;
-  height: 250px;
-  color: white;
+#Container {
   background-color: green;
-  padding: 100px 50px 10px 30px;
-  clear: both;
+  width: 400px;
+  height: 1200px;
+  position: relative;
+  margin-top: 100;
+  margin-left: 100px;
+}
+
+.GoToTheTop {
+  color: black;
+  background-color: yellow;
+  border: 1vh solid violet;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+  width: 5vh;
+  height: 5vh;
+  line-height: 5vh;
+  font-size: 2vh;
+  text-align: center;
 }
